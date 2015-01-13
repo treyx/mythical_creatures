@@ -1,5 +1,5 @@
 class Werewolf
-	attr_accessor :name, :location
+	attr_reader :name, :location
 
 	def initialize(name, location="London")
 		@name = name
@@ -18,7 +18,5 @@ class Werewolf
 	def werewolf?
 		!@human
 	end
-
-
 
 end
