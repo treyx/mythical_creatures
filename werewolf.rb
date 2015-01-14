@@ -16,7 +16,7 @@ class Werewolf
 	end
 
 	def werewolf?
-		!@human
+		!human?
 	end
 
 end
